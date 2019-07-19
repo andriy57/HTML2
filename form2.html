@@ -27,10 +27,23 @@
   <title>Тег BODY, атрибут bgcolor</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
  </head>
- <body bgcolor="#1E90FF">
+ <body bgcolor="#F0F8FF">
   ...
  </body>
-
+<form action="/my-handling-form-page" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+</form>
 
 </head>
 <body>
